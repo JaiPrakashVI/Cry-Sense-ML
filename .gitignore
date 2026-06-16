@@ -1,0 +1,29 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Production builds
+dist/
+**/dist/
+
+# Environment files (secret keys)
+.env
+**/.env
+
+# Local storage and system files
+backend/storage/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.vscode/
